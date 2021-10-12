@@ -1,3 +1,9 @@
+# Projeto Original do curso Utiliza HTML E CSS [Curso de Css](gitlab.com/karensantos/project-flexbox-dio)
+
+# Projeto Atual esta sendo desenvolvido com reactJs 
+
+Objetivo do projeto exercitar CSS Flex-box, optei por desenvolver utilizando reactJs e styled-componets para a utilização do CSS in Js.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
