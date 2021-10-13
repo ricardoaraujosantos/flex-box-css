@@ -4,7 +4,8 @@ import styled from "styled-components";
 const MainCard = styled.main`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
 `;
 
 const Card = ({ children }) => {
