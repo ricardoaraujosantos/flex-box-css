@@ -4,6 +4,10 @@
 
 Objetivo do projeto exercitar CSS Flex-box, optei por desenvolver utilizando reactJs e styled-componets para a utilização do CSS in Js.
 
+![Landing Page](https://github.com/ricardoaraujosantos/flex-box-css/blob/main/src/assets/captura-1.png)
+
+![Landing Page](https://github.com/ricardoaraujosantos/flex-box-css/blob/main/src/assets/captura-2.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
