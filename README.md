@@ -1,4 +1,4 @@
-# Projeto Original do curso Utiliza HTML E CSS [Curso de Css](gitlab.com/karensantos/project-flexbox-dio)
+# Projeto Original utiliza HTML| CSS [ Aula  de CSS Da Karen Santos | Digital Innovation One](gitlab.com/karensantos/project-flexbox-dio)
 
 # Projeto Atual esta sendo desenvolvido com reactJs 
 
