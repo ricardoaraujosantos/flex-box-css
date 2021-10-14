@@ -2,15 +2,27 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
     display: flex;
-    flex-direction: column;
-    margin: 0 5px; 
+    flex-direction: column;  
     font-family: ${(props) => props.theme.fonts.regular};
+    margin:0 5px;
 `;
 
 export const Container = styled.div`
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    @media (max-width: 1024px) {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 export const Header = styled.header`
@@ -21,6 +33,16 @@ export const Header = styled.header`
     height: 250px;
     width: 100vw;
     margin: 0;
+
+    @media (max-width: 768px) {
+        display:flex;
+        flex-direction: column;
+    }
+  
+    @media (max-width: 1024px) {
+        display:flex;
+        flex-direction: column;
+    }
 `;
 
 export const Logo = styled.h1`
@@ -37,7 +59,7 @@ export const Nav = styled.nav`
 
 const Menu = styled.a`
     color: ${(props) => props.theme.colors.primary};
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bolder;
     margin-left: 25px;
     :hover{
@@ -61,4 +83,5 @@ export const DescriptionCard = styled.p`
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
+    width: 90%;
 `;

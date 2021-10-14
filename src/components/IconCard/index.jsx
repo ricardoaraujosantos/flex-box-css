@@ -14,6 +14,8 @@ const Card = styled.div`
     background: ${(props) => props.theme.colors.tertiary};
     border: 4px solid ${(props) => props.theme.colors.primary};
     border-radius: 10px;
+
+   
 `;
 
 const Img = styled.img`
@@ -27,6 +29,17 @@ const Column = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 768px) {
+       width: 30%;
+       font-size: 16px;
+    }
+  
+    @media (max-width: 1024px) {
+        width: 30%;
+       font-size: 16px;
+        
+    }
 `;
 
 const Title = styled.h2`
@@ -34,6 +47,16 @@ const Title = styled.h2`
     color: ${(props) => props.theme.colors.text};
     font-size: 26px;
     font-weight: bolder;
+
+    @media (max-width: 768px) {
+        width: 50%;
+        font-size: 16px;
+     }
+   
+     @media (max-width: 1024px) {
+         width: 50%;
+        font-size: 16px;
+     }
 `;
 
 
@@ -43,7 +66,7 @@ const IconCard = () => {
         <Card>
             <Column>
                 <Img src={icon1} alt="Foto icone avião voando" />
-                <Title>Pacotes de Viagens</Title>
+                <Title>Pacotes</Title>
                 <Button children="Comprar Agora" />
             </Column>
            <Column>
@@ -53,7 +76,7 @@ const IconCard = () => {
            </Column>
            <Column>
                 <Img src={icon3} alt="Foto icone gps" />
-                <Title>Guia Turistico</Title>
+                <Title>Guias</Title>
                 <Button children="Comprar Agora" />
            </Column>
         </Card>

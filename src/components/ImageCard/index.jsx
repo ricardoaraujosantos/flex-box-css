@@ -9,12 +9,15 @@ const CardImg = styled.img`
         border: 4px solid ${(props) => props.theme.colors.tertiary};
         border-radius: 10px;
     }
+
+    
 `;
 
-const ImageCard = () => {
+const ImageCard = ({ className }) => {
     return(
         <CardImg
-            src= {Fhoto}
+            className={ className }
+            src= { Fhoto }
         />
     );
 };

@@ -4,7 +4,7 @@ import styled from "styled-components";
 const MainCard = styled.main`
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 `;
 

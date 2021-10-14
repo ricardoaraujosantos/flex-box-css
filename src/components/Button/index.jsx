@@ -19,6 +19,16 @@ import styled from "styled-components";
             border-radius: 20px;
             cursor: pointer;
         }
+
+        @media (max-width: 768px) {
+            width: 80%;
+            font-size: 10px;
+         }
+       
+         @media (max-width: 1024px) {
+             width: 80%;
+            font-size: 16px;
+         }
     `;
 
     const Button = ({ children, className, onClick }) => {
